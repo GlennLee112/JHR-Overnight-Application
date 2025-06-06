@@ -3,12 +3,12 @@ JHR Overnight Application made with **Python**, utilizing Tkinter on the front e
 
 Lightweight Application used by J&T Johor region for automated Overnight data processing and output. Main objective and outcome of the application is to streamline the data process and improve work efficiency.
 
-Disclaimer: with compliant to J&T Express (Malaysia) Sdn. Bhd. NDA aggrement, this app and any associate code are considered 'personal invention' and falls under personal (inventors) discretion to modify and repurpose if required.  
+Disclaimer: with compliant to J&T Express (Malaysia) Sdn. Bhd. NDA aggrement, this app and any associate code are considered 'personal invention' and falls under personal (inventor's) discretion to modify and repurpose if required.  
 
 # Components
 1. Main (Main_Tkinter.py)
-   - Main application Containing the main Tkinter UI component of the application, application function by calling in sub 
+   - Main application Containing the main Tkinter UI component of the application, application function by calling in subroutine to execute functions as required
 2. Overnight subroutine (Main_Overnight.py)
    - Subroutine for processing raw Overnight data, utilizing Pandas for transforming raw data into separate final output; AWB list is uploaded to database within 'Database' folder utilizing SQLAlchemy ORM, summarized data is appended automatically by year and month to the 'Ouput' Folder in csv. format (for reading speed and ease of accessbility)
-3. Delivery and Arrival subroutine (
-   - Simple subroutine to aggregate Delivery and arrival data to respective folder 
+3. Delivery and Arrival subroutine (Main_Delivery.py & Main_Arrival.py)
+   - Simple subroutine to aggregate Delivery and Arrival data to respective folder
