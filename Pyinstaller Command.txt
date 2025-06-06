@@ -1,0 +1,1 @@
+pyinstaller Main_Tkinter.py --onefile --add-data "Database;Database" --add-data "Input;Input" --add-data "Output;Output" --add-data "tk_res;tk_res" --windowed --icon=jnt_icon.ico --name Main

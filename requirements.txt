@@ -1,0 +1,12 @@
+pandas == 2.2.3
+openpyxl == 3.1.5
+shutils == 0.1.0
+rows == 0.2.0
+xlrd == 2.0.1
+numpy == 2.2.3
+collections-extended == 2.0.2
+sqlalchemy == 2.0.40
+tkcalendar == 1.6.1
+python-dateutil ~= 2.9.0.post0
+sqlalchemy_utils == 0.41.2
+pyinstaller == 6.13.0
